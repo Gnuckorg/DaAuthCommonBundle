@@ -28,5 +28,5 @@ interface UserManagerInterface
      *
      * @throws \Da\AuthCommonBundle\Exception\InvalidAccessTokenException If no user corresponds to the API token.
      */
-    function retrieveUserFromAccessToken($accessToken);
+    function retrieveUserByAccessToken($accessToken);
 }

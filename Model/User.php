@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Da\OAuthServerBundle\Entity;
+namespace Da\OAuthServerBundle\Model;
 
 /**
  * A basic user.

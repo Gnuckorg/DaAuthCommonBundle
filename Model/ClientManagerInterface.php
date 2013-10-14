@@ -28,5 +28,5 @@ interface ClientManagerInterface
      *
      * @throws \Da\AuthCommonBundle\Exception\InvalidApiTokenException If no client corresponds to the API token.
      */
-    function retrieveClientFromApiToken($apiToken);
+    function retrieveClientByApiToken($apiToken);
 }

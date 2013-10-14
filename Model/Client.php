@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Da\AuthCommonBundle\Entity;
+namespace Da\AuthCommonBundle\Model;
 
 /**
  * A basic client.
