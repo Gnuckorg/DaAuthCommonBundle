@@ -76,4 +76,36 @@ interface ClientInterface
      * @return ClientInterface This.
      */
     public function setAuthSpace(AuthSpaceInterface $authSpace);
+
+    /**
+     * Whether the client is a trusted one or not.
+     *
+     * @return boolean True if this is a trusted client, false otherwise.
+     */
+    public function isTrusted();
+
+    /**
+     * Set the fact the client is a trusted one or not.
+     *
+     * @param boolean $trusted True if this is a trusted client, false otherwise.
+     *
+     * @return Client This.
+     */
+    public function setTrusted($trusted);
+
+    /**
+     * Get the optional client login path for trusted client.
+     *
+     * @return string The client login path.
+     */
+    public function getClientLoginPath();
+
+    /**
+     * Set the optional client login path for trusted client.
+     *
+     * @param string $clientLoginPath The client login path.
+     *
+     * @return ClientInterface This.
+     */
+    public function setClientLoginPath($clientLoginPath);
 }
